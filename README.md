@@ -14,10 +14,11 @@ graph TD
         Proxy -->|/app1/| App1[App 1 Container: app1_container]
         Proxy -->|/app2/| App2[App 2 Container: app2_container]
     end
-Routing Logic:
-http://localhost/app1/ ──► Routes requests to app1_container
+```
 
-http://localhost/app2/ ──► Routes requests to app2_container
+**Routing Logic:**
+* `http://localhost/app1/` ──► Routes requests to `app1_container`
+* `http://localhost/app2/` ──► Routes requests to `app2_container`
 
 🚀 Key Features
 Path-Based Routing: Seamlessly routes requests based on URL endpoints without exposing backend container ports to the host.
