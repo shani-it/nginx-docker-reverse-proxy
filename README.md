@@ -23,7 +23,7 @@ graph TD
 🚀 Key Features
 Path-Based Routing: Seamlessly routes requests based on URL endpoints without exposing backend container ports to the host.
 
-Isolated Networking: Containers communicate securely over a custom Docker bridge network (proxy_net).
+Isolated Networking: Containers communicate securely over a custom Docker bridge network .
 
 Container Orchestration: Built and managed using Docker Compose for single-command deployment.
 
